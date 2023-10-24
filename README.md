@@ -1,1 +1,0 @@
-Aplicacion creada con React JS y Boostrap.
