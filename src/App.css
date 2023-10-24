@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Establece la altura al 100% de la altura de la ventana (viewport height) */
+  width: 100%; /* Establece el ancho al 100% del ancho de la ventana */
+  background: linear-gradient(to bottom right, #99bef1, white);
+  display: flex; /* Activa el modelo de caja flexible para centrar contenido */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+}
+
+.custom-text {
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+}
